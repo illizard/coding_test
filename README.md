@@ -1,12 +1,10 @@
 # Coding_Test
 
 ## Anouncement
+![textbook.jpg](https://github.com/illizard/coding_test/data/textbook.jpg)
+1. 메세지 규약: Part Number / Question Number / Question Name
 
-1. 메세지 규약: [문제 출처 사이트 약자]/ 문제 번호/ 난이도
-
-    - ex) [BOJ] / 1439 / bronze
-
-    - (백준:BOJ, 프로그래머스:PMS, 릿코드:LCD)
+    - ex) part3_#5_bowlingball.py
 
 2. 파일 형식: .py(문제 당 1개)
 
