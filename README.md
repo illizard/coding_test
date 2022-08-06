@@ -1,7 +1,7 @@
 # Coding_Test
 
 ## Anouncement
-![textbook.jpg](https://github.com/illizard/coding_test/data/textbook.jpg)
+![textbook.jpg](https://github.com/illizard/coding_test/blob/main/data/textbook.jpg)
 1. 메세지 규약: Part Number / Question Number / Question Name
 
     - ex) part3_#5_bowlingball.py
