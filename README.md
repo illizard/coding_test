@@ -2,7 +2,7 @@
 
 ## Anouncement
 ![textbook.jpg](https://github.com/illizard/coding_test/blob/main/data/textbook.jpg)
-1. 메세지 규약: Part Number / Question Number / Question Name
+1. 파일 이름: 파트 번호 / 문제 번호 / 문제 이름
 
     - ex) part3_#5_bowlingball.py
 
