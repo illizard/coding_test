@@ -34,16 +34,3 @@ if __name__ == "__main__":
     m_max_weight = int(input('input the weight of ball: \n'))
     final_cnt = calculate_matrix(n_number, m_max_weight)
     main(final_cnt)
-
-
-
-
-# 실행시간 1초 이내 
-# 매트릭스로 짤 수는 없을까? for 문 돌리는 데 시간이 오래 걸리나?  
-# row = n 
-# col = m
-# mat 2개 비교    
-
-# int(input(
-# k_weight_list = [random.randint(1,m_max_weight) for each_ball in range(n_number)]
-# if n_number >= 1 and n_number <= 1000:

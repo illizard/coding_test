@@ -4,10 +4,6 @@
 #result = ' '.join(s for s in str_list)
 # list_a = map(int, list_a) 
 #runtime within 1s
-#float 처리하려면 어케 하지? 
-
-#tmp_list.append(ele.upper())  #['A', 'D', 'S', '6']
-#tmp_list.append(ele.upper)  #[<built-in method upper of str object at 0x7f26660dc458>, <built-in method upper of str object at 0x7f26660edc70>, <built-in method upper of str object at 0x7f266614de30>, '6']
 
 def StringResorting(input_string):
   cnt=0
