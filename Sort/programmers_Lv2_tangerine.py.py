@@ -18,5 +18,6 @@ if __name__=='__main__':
     solution(k, tangerine)
 
 
-#least_common = Counter(tangerine).most_common()[-1] 최소값 구하기 
+#least_common = Counter(tangerine).most_common()[-1] 최소값 구하기
+#sorted(), Counter() 등 함수 시간복잡도 찾아보기
 #무슨 문제 인지는 모르겠네 counting_sort?
