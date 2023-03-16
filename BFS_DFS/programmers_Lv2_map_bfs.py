@@ -7,14 +7,14 @@ def solution(maps):
     visited = set([(0, 0)]) #이미 방문 노드
     
     while cur_loc:
-        x, y, d_mv = cur_loc.popleft() 
-        if x == row-1 and y == col-1:
+        y, x, d_mv = cur_loc.popleft() 
+        if y == row-1 and x == col-1:
             return d_mv #종료 조건
-        for dx, dy in dirs: 
-            nx, ny = x + dx, y + dy #new 방문 노드
-            if 0 <= nx < row and 0 <= ny < col and maps[nx][ny] == 1 and (nx, ny) not in visited: #이동 가능 조건
-                visited.add((nx,ny))
-                cur_loc.append((nx, ny, d_mv+1)) 
+        for dy, dx in dirs: 
+            ny, nx = y + dy, x + dx #new 방문 노드
+            if 0 <= ny < row and 0 <= nx < col and maps[ny][nx] == 1 and (ny, nx) not in visited: #이동 가능 조건
+                visited.add((ny,nx))
+                cur_loc.append((ny, nx, d_mv+1)) 
     return -1
 
 if __name__=="__main__":
